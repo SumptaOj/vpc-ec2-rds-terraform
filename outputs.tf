@@ -14,15 +14,6 @@ output "rds_username" {
   sensitive   = true
 }
 
-/*output "webserver_public_dns" {
-  description = "The public dns address of the web server"
-  value =  aws_autoscaling_group.web[0].public_dns
-
-  depends_on = [
-    aws_autoscaling_group.web
-  ]
-}*/
-
 output "launch_template_id" {
   description = "Launch Template ID"
   value       = aws_launch_template.web.id
