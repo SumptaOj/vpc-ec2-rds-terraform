@@ -1,5 +1,5 @@
 // Associate to my_ip variable
-my_ip = "185.134.129.181"
+my_ip = "Your IP Address"
 
 // Associate to db_username variable
 db_username = "admin"
